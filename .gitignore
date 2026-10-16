@@ -1,0 +1,22 @@
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+
+# .NET
+bin/
+obj/
+*.csproj.user
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
