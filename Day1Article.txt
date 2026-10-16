@@ -1,0 +1,19 @@
+1. Developers practicing CI(Continuous Integration) merge their changes back to the main branch as much as possible. Changes are validated by creating a build and running automated tests against that build.
+   Developers practicing CD(Continuous Development) have code changes automatically deployed to a production environment after the build stage. All code changes that pass all production stages are released to customers.
+
+2. F1 Needs CI so that there are less bugs which will be captured by the automated tests 
+
+3. The 3 main steps in a CI/CD pipeline are build, test, deploy 
+
+
+CI/CD pipeline
+
+Developer pushes code
+        ↓
+CI: Automatically RUN TESTS
+        ↓
+If tests pass:
+    CD: Automatically BUILD + PREPARE for deployment
+        ↓
+        Option A (Delivery): WAIT for human to click "deploy"
+        Option B (Deployment): AUTOMATICALLY DEPLOY to production
